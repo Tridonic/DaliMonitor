@@ -6,13 +6,13 @@ package com.loxeras.dalimonitor;
 //Main form, allows to connect to Bluetooth device
 ////////////////////////////////////////////////////////////////////////////////
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.AdapterView;
@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import java.util.Set;
 import java.util.UUID;
 
-public class connect extends ActionBarActivity {
+public class connect extends Activity {
     private BluetoothAdapter btAdapter = null;
     private Set<BluetoothDevice>pairedDevices;
     private BluetoothSocket btSocket;

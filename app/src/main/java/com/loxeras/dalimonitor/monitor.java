@@ -42,7 +42,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Calendar;
 
-public class monitor extends ActionBarActivity {
+public class monitor extends Activity  {
     public static boolean success = true;
     private static final int BUFFER_SIZE = 4096;
     private boolean isClosing;
@@ -144,7 +144,7 @@ public class monitor extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         //Wird beim ersten start aufgerufen und erstellt das menu
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Inflate the menu items for use in the action bar
         MenuInflater inflater = getMenuInflater();

@@ -3,14 +3,14 @@
     <!-- Search, should appear as action button -->
     
     <item android:id="@+id/action_as"
-        app:showAsAction="ifRoom"
+        android:showAsAction="always"
     	android:title="@string/action_as"
     	android:icon="@drawable/ic_action_pause"
      />
     
     <item android:id="@+id/action_clear"
           android:title="@string/action_clear"
-        app:showAsAction="ifRoom"
+        android:showAsAction="always"
           android:icon="@drawable/ic_action_remove" /> 
     <!-- Settings, should always be in the overflow -->
     <item android:id="@+id/action_settings"
