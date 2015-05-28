@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color
+        name="action_bar_color"
+        >#00519C</color>
+    //009DDF
+    <color
+        name="notification_bar"
+        >#003F77</color>
+    //004887
+    //003F77
+    //0097D3
+
+    <color
+        name="action_bar_color_help"
+        >#ee4d2e</color>
+    <color
+        name="notification_bar_help"
+        >#0097D3</color>
+</resources>
