@@ -13,4 +13,7 @@
     <string name ="notif_text">FAIL</string>
     <string name ="action_load">Load</string>
     <string name ="action_save">Save</string>
+    <string name ="add">System erweitern</string>
+    <string name ="init">System neu Initialisieren</string>
+    <string name ="adress">Adressierung</string>
 </resources>

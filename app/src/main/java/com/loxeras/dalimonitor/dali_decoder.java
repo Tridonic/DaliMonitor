@@ -57,10 +57,8 @@ public class dali_decoder extends Thread {
             "ADD 30","ADD 31","ADD 32","ADD 33","ADD 34","ADD 35","ADD 36","ADD 37","ADD 38","ADD 39",
             "ADD 40","ADD 41","ADD 42","ADD 43","ADD 44","ADD 45","ADD 46","ADD 47","ADD 48","ADD 49",
             "ADD 50","ADD 51","ADD 52","ADD 53","ADD 54","ADD 55","ADD 56","ADD 57","ADD 58","ADD 59",
-            "ADD 10","ADD 61","ADD 62","ADD 63","GRP 0",
-
-            "GRP 01","GRP 02","GRP 03","GRP 04","GRP 05","GRP 06","GRP 07","GRP 08","GRP 09","GRP 10",
-            "GRP 11","GRP 12","GRP 13","GRP 14","GRP 15"
+            "ADD 10","ADD 61","ADD 62","ADD 63","GRP 0", "GRP 01","GRP 02","GRP 03","GRP 04","GRP 05",
+            "GRP 06","GRP 07","GRP 08","GRP 09","GRP 10","GRP 11","GRP 12","GRP 13","GRP 14","GRP 15"
     };
 
     public static interface Listener {

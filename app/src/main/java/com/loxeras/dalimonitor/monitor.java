@@ -22,7 +22,6 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.NotificationCompat;
-import android.support.v7.app.ActionBarActivity;
 import android.telephony.TelephonyManager;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -408,10 +407,41 @@ public class monitor extends Activity  {
             case R.id.action_info:
                 showInfo();
                 return true;
+            case R.id.adress:
+                dialogAdress();
+                return true;
 
             default:
                 return super.onOptionsItemSelected(item);		//Return selected item
         }
+    }
+
+    private void dialogAdress(){
+        //LayoutInflater layoutInflater = LayoutInflater.from(this);
+       // View promptView = layoutInflater.inflate(R.layout.adress_dialog, null);
+
+        final Bluetooth_send bt = new Bluetooth_send();
+
+
+
+        DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                switch (which){
+                    case DialogInterface.BUTTON_POSITIVE:
+                        bt.send("init");
+                        break;
+
+                    case DialogInterface.BUTTON_NEGATIVE:
+                        bt.send("add");
+                        break;
+                }
+            }
+        };
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(monitor.this);
+        builder.setMessage("Was wollen sie tun?").setPositiveButton("neu Initialisieren", dialogClickListener)
+                .setNegativeButton("erweitern", dialogClickListener).setTitle("Adressierung").show();
     }
 
 }
