@@ -21,10 +21,11 @@ public class Bluetooth_send extends Thread {
         //sends a message vie Bluetooth
         BluetoothThread BluetoothThread;
         BluetoothThread = connect.get_thread();	//get bluetooth thread
+        msg = "S"+msg+"E";  //Start und End Bit.
 
         //254 221
         btSocket = BluetoothThread.get_connection();	//Get bluetooth connection
-        byte[] msgBufferTermination = {0xA,0xD};		//Msg termination /n /r
+        byte[] msgBufferTermination = {0xD,0xA};		//Msg termination /n /r
         byte[] msgBuffer = msg.getBytes();  			//Translate message to byte
 
         try {

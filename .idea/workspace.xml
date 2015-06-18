@@ -5,6 +5,9 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b67baefc-597b-41db-90e7-f43209de8ced" name="Default" comment="" />
     <ignored path="Dali Monitor.iws" />
@@ -33,29 +36,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="monitor.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="monitor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/monitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.172413">
-              <caret line="438" column="13" selection-start-line="438" selection-start-column="13" selection-end-line="438" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2374#2382#0" expanded="true" />
-                <element signature="e#4506#4514#0" expanded="true" />
-                <element signature="e#17923#18387#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.33208254">
+              <caret line="130" column="21" selection-start-line="130" selection-start-column="12" selection-end-line="130" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bluetooth_send.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/Bluetooth_send.java">
+      <file leaf-file-name="BluetoothThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/BluetoothThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,186 +66,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adress_dialog.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/adress_dialog.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.62069">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-              <folding>
-                <element signature="e#348#361#0" expanded="true" />
-                <element signature="e#517#531#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="file_writer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/file_writer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.120567374">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewRootImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-22/android/view/ViewRootImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="690" column="0" selection-start-line="690" selection-start-column="0" selection-end-line="690" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#288786#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#5488#5498#0" expanded="false" />
-                <element signature="e#5574#5584#0" expanded="false" />
-                <element signature="e#5727#5747#0" expanded="false" />
-                <element signature="e#11835#11841#0" expanded="false" />
-                <element signature="e#15359#15360#0" expanded="false" />
-                <element signature="e#15390#15391#0" expanded="false" />
-                <element signature="e#31817#31818#0" expanded="false" />
-                <element signature="e#31845#31846#0" expanded="false" />
-                <element signature="e#31885#31886#0" expanded="false" />
-                <element signature="e#31917#31918#0" expanded="false" />
-                <element signature="e#36939#36940#0" expanded="false" />
-                <element signature="e#36978#36979#0" expanded="false" />
-                <element signature="e#37503#37504#0" expanded="false" />
-                <element signature="e#37555#37556#0" expanded="false" />
-                <element signature="e#39497#39498#0" expanded="false" />
-                <element signature="e#39524#39525#0" expanded="false" />
-                <element signature="e#40049#40050#0" expanded="false" />
-                <element signature="e#40119#40120#0" expanded="false" />
-                <element signature="e#89080#89081#0" expanded="false" />
-                <element signature="e#89112#89113#0" expanded="false" />
-                <element signature="e#124642#124643#0" expanded="false" />
-                <element signature="e#124690#124691#0" expanded="false" />
-                <element signature="e#127556#127557#0" expanded="false" />
-                <element signature="e#127583#127584#0" expanded="false" />
-                <element signature="e#152834#152835#0" expanded="false" />
-                <element signature="e#152870#152871#0" expanded="false" />
-                <element signature="e#153767#153768#0" expanded="false" />
-                <element signature="e#153809#153810#0" expanded="false" />
-                <element signature="e#154550#154551#0" expanded="false" />
-                <element signature="e#154588#154589#0" expanded="false" />
-                <element signature="e#162598#162599#0" expanded="false" />
-                <element signature="e#162633#162634#0" expanded="false" />
-                <element signature="e#163407#163408#0" expanded="false" />
-                <element signature="e#163456#163457#0" expanded="false" />
-                <element signature="e#164938#164939#0" expanded="false" />
-                <element signature="e#164973#164974#0" expanded="false" />
-                <element signature="e#168053#168054#0" expanded="false" />
-                <element signature="e#168088#168089#0" expanded="false" />
-                <element signature="e#175939#175940#0" expanded="false" />
-                <element signature="e#175974#175975#0" expanded="false" />
-                <element signature="e#191708#191709#0" expanded="false" />
-                <element signature="e#191743#191744#0" expanded="false" />
-                <element signature="e#200426#200427#0" expanded="false" />
-                <element signature="e#200461#200462#0" expanded="false" />
-                <element signature="e#215744#215745#0" expanded="false" />
-                <element signature="e#215796#215797#0" expanded="false" />
-                <element signature="e#217536#217537#0" expanded="false" />
-                <element signature="e#217573#217574#0" expanded="false" />
-                <element signature="e#222370#222371#0" expanded="false" />
-                <element signature="e#222435#222436#0" expanded="false" />
-                <element signature="e#228029#228030#0" expanded="false" />
-                <element signature="e#228058#228059#0" expanded="false" />
-                <element signature="e#241450#241451#0" expanded="false" />
-                <element signature="e#241506#241507#0" expanded="false" />
-                <element signature="e#247515#247516#0" expanded="false" />
-                <element signature="e#247552#247553#0" expanded="false" />
-                <element signature="e#247910#247911#0" expanded="false" />
-                <element signature="e#247973#247974#0" expanded="false" />
-                <element signature="e#248535#248536#0" expanded="false" />
-                <element signature="e#248616#248617#0" expanded="false" />
-                <element signature="e#248906#248907#0" expanded="false" />
-                <element signature="e#248955#248956#0" expanded="false" />
-                <element signature="e#249328#249334#0" expanded="false" />
-                <element signature="e#249439#249466#0" expanded="false" />
-                <element signature="e#253318#253319#0" expanded="false" />
-                <element signature="e#253365#253366#0" expanded="false" />
-                <element signature="e#255268#255269#0" expanded="false" />
-                <element signature="e#255336#255337#0" expanded="false" />
-                <element signature="e#256457#256458#0" expanded="false" />
-                <element signature="e#256527#256528#0" expanded="false" />
-                <element signature="e#257810#257811#0" expanded="false" />
-                <element signature="e#257838#257839#0" expanded="false" />
-                <element signature="e#262752#262753#0" expanded="false" />
-                <element signature="e#262779#262780#0" expanded="false" />
-                <element signature="e#262843#262844#0" expanded="false" />
-                <element signature="e#262870#262871#0" expanded="false" />
-                <element signature="e#262923#262924#0" expanded="false" />
-                <element signature="e#262984#262985#0" expanded="false" />
-                <element signature="e#263046#263047#0" expanded="false" />
-                <element signature="e#263073#263074#0" expanded="false" />
-                <element signature="e#263135#263136#0" expanded="false" />
-                <element signature="e#263162#263163#0" expanded="false" />
-                <element signature="e#263213#263214#0" expanded="false" />
-                <element signature="e#263272#263273#0" expanded="false" />
-                <element signature="e#263334#263335#0" expanded="false" />
-                <element signature="e#263361#263362#0" expanded="false" />
-                <element signature="e#263423#263424#0" expanded="false" />
-                <element signature="e#263450#263451#0" expanded="false" />
-                <element signature="e#263501#263502#0" expanded="false" />
-                <element signature="e#263560#263561#0" expanded="false" />
-                <element signature="e#266646#266647#0" expanded="false" />
-                <element signature="e#266674#266675#0" expanded="false" />
-                <element signature="e#267174#267175#0" expanded="false" />
-                <element signature="e#267220#267221#0" expanded="false" />
-                <element signature="e#267582#267583#0" expanded="false" />
-                <element signature="e#267656#267657#0" expanded="false" />
-                <element signature="e#267915#267916#0" expanded="false" />
-                <element signature="e#267957#267958#0" expanded="false" />
-                <element signature="e#274452#274453#0" expanded="false" />
-                <element signature="e#274486#274487#0" expanded="false" />
-                <element signature="e#275033#275048#0" expanded="false" />
-                <element signature="e#275088#275089#0" expanded="false" />
-                <element signature="e#275134#275135#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WindowManagerGlobal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-22/android/view/WindowManagerGlobal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WindowManagerImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-22/android/view/WindowManagerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="monitor.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/monitor.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.448276">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="dali_decoder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+              <caret line="147" column="14" selection-start-line="147" selection-start-column="14" selection-end-line="147" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bluetooth_send.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/Bluetooth_send.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_writer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/file_writer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -1301,7 +1172,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4298273428961" />
+        <entry key="$PROJECT_DIR$" value="4300968700358" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1604,17 +1475,21 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/connect.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/simplerow.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/monitor.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/file_writer.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/connect.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/monitor.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/adress_dialog.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/Bluetooth_send.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/FileDialog.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/monitor.java" />
+        <option value="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/Bluetooth_send.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/file_writer.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java" />
       </list>
     </option>
   </component>
@@ -1650,6 +1525,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1670,86 +1548,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dali Monitor" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dali Monitor" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dali Monitor" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dali Monitor" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1784,25 +1582,8 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dali Monitor" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane" />
     </panes>
   </component>
@@ -1819,10 +1600,18 @@
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="9d9f4a7a" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="e65588e2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_6_API_22" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspace/Tridonic_IR_Fernbedienung" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Android\worksammel\DaliMonitor\app\src\main\java\com\loxeras\dalimonitor" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2025,35 +1814,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1696" height="1036" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="22" width="1696" height="1036" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49511003" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49755502" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.4767726" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5067568" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272727" sideWeight="0.50733495" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.50733495" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885087" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49755502" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49511003" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49266502" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.49511003" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294621" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3272727" sideWeight="0.49266502" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.49266502" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.502445" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.49324325" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2591687" sideWeight="0.49324325" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5067568" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.49266502" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885087" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2073,56 +1862,75 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java</url>
-          <line>96</line>
+          <line>106</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java</url>
-          <line>97</line>
+          <line>107</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java</url>
+          <line>150</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java</url>
+          <line>134</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java</url>
+          <line>146</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/monitor.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/monitor.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#274#293#0" expanded="true" />
-            <element signature="e#418#440#0" expanded="true" />
-            <element signature="e#592#608#0" expanded="true" />
-            <element signature="e#712#733#0" expanded="true" />
-            <element signature="e#833#854#0" expanded="true" />
-            <element signature="e#957#978#0" expanded="true" />
-            <element signature="e#1084#1109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2143,7 +1951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2154,7 +1961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2162,12 +1968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="46" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="46" />
-          <folding>
-            <element signature="e#3318#3620#0" expanded="false" />
-            <element signature="e#3619#3620#0" expanded="false" />
-            <element signature="e#4817#4818#0" expanded="false" />
-            <element signature="e#4853#4854#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2175,12 +1975,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="144" column="38" selection-start-line="144" selection-start-column="34" selection-end-line="144" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2374#2382#0" expanded="true" />
-            <element signature="e#4506#4514#0" expanded="true" />
-            <element signature="e#17923#18387#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2196,15 +1991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <element signature="e#274#293#0" expanded="true" />
-            <element signature="e#418#440#0" expanded="true" />
-            <element signature="e#592#608#0" expanded="true" />
-            <element signature="e#712#733#0" expanded="true" />
-            <element signature="e#833#854#0" expanded="true" />
-            <element signature="e#957#978#0" expanded="true" />
-            <element signature="e#1084#1109#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2212,7 +1998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2223,7 +2008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2250,7 +2034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2261,7 +2044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2269,12 +2051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="46" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="46" />
-          <folding>
-            <element signature="e#3318#3620#0" expanded="false" />
-            <element signature="e#3619#3620#0" expanded="false" />
-            <element signature="e#4817#4818#0" expanded="false" />
-            <element signature="e#4853#4854#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2282,12 +2058,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="144" column="38" selection-start-line="144" selection-start-column="34" selection-end-line="144" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2374#2382#0" expanded="true" />
-            <element signature="e#4506#4514#0" expanded="true" />
-            <element signature="e#17923#18387#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2303,15 +2074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <element signature="e#274#293#0" expanded="true" />
-            <element signature="e#418#440#0" expanded="true" />
-            <element signature="e#592#608#0" expanded="true" />
-            <element signature="e#712#733#0" expanded="true" />
-            <element signature="e#833#854#0" expanded="true" />
-            <element signature="e#957#978#0" expanded="true" />
-            <element signature="e#1084#1109#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2319,7 +2081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2330,7 +2091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2357,7 +2117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2368,12 +2127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding>
-            <element signature="e#3318#3620#0" expanded="false" />
-            <element signature="e#3619#3620#0" expanded="false" />
-            <element signature="e#4817#4818#0" expanded="false" />
-            <element signature="e#4853#4854#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2381,12 +2134,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2374#2382#0" expanded="true" />
-            <element signature="e#4506#4514#0" expanded="true" />
-            <element signature="e#17923#18387#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2402,11 +2150,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1724#2081#0" expanded="false" />
-            <element signature="e#2080#2081#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2430,7 +2173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2441,7 +2183,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="75" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/monitor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.56">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/monitor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-22/android/view/WindowManagerGlobal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="153" column="18" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-22/android/view/ViewRootImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="140" column="10" selection-start-line="140" selection-start-column="10" selection-end-line="140" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-22/android/view/WindowManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36476868">
+          <caret line="102" column="40" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/adress_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2451,55 +2254,21 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93668526">
+          <caret line="45" column="19" selection-start-line="36" selection-start-column="8" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="75" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/monitor.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#274#293#0" expanded="true" />
-            <element signature="e#418#440#0" expanded="true" />
-            <element signature="e#592#608#0" expanded="true" />
-            <element signature="e#712#733#0" expanded="true" />
-            <element signature="e#833#854#0" expanded="true" />
-            <element signature="e#957#978#0" expanded="true" />
-            <element signature="e#1084#1109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.56">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2520,10 +2289,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java">
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -2531,185 +2315,31 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/Bluetooth_send.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/adress_dialog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.62069">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="e#348#361#0" expanded="true" />
-            <element signature="e#517#531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/monitor.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.448276">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-22/android/view/ViewRootImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="690" column="0" selection-start-line="690" selection-start-column="0" selection-end-line="690" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#288786#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5488#5498#0" expanded="false" />
-            <element signature="e#5574#5584#0" expanded="false" />
-            <element signature="e#5727#5747#0" expanded="false" />
-            <element signature="e#11835#11841#0" expanded="false" />
-            <element signature="e#15359#15360#0" expanded="false" />
-            <element signature="e#15390#15391#0" expanded="false" />
-            <element signature="e#31817#31818#0" expanded="false" />
-            <element signature="e#31845#31846#0" expanded="false" />
-            <element signature="e#31885#31886#0" expanded="false" />
-            <element signature="e#31917#31918#0" expanded="false" />
-            <element signature="e#36939#36940#0" expanded="false" />
-            <element signature="e#36978#36979#0" expanded="false" />
-            <element signature="e#37503#37504#0" expanded="false" />
-            <element signature="e#37555#37556#0" expanded="false" />
-            <element signature="e#39497#39498#0" expanded="false" />
-            <element signature="e#39524#39525#0" expanded="false" />
-            <element signature="e#40049#40050#0" expanded="false" />
-            <element signature="e#40119#40120#0" expanded="false" />
-            <element signature="e#89080#89081#0" expanded="false" />
-            <element signature="e#89112#89113#0" expanded="false" />
-            <element signature="e#124642#124643#0" expanded="false" />
-            <element signature="e#124690#124691#0" expanded="false" />
-            <element signature="e#127556#127557#0" expanded="false" />
-            <element signature="e#127583#127584#0" expanded="false" />
-            <element signature="e#152834#152835#0" expanded="false" />
-            <element signature="e#152870#152871#0" expanded="false" />
-            <element signature="e#153767#153768#0" expanded="false" />
-            <element signature="e#153809#153810#0" expanded="false" />
-            <element signature="e#154550#154551#0" expanded="false" />
-            <element signature="e#154588#154589#0" expanded="false" />
-            <element signature="e#162598#162599#0" expanded="false" />
-            <element signature="e#162633#162634#0" expanded="false" />
-            <element signature="e#163407#163408#0" expanded="false" />
-            <element signature="e#163456#163457#0" expanded="false" />
-            <element signature="e#164938#164939#0" expanded="false" />
-            <element signature="e#164973#164974#0" expanded="false" />
-            <element signature="e#168053#168054#0" expanded="false" />
-            <element signature="e#168088#168089#0" expanded="false" />
-            <element signature="e#175939#175940#0" expanded="false" />
-            <element signature="e#175974#175975#0" expanded="false" />
-            <element signature="e#191708#191709#0" expanded="false" />
-            <element signature="e#191743#191744#0" expanded="false" />
-            <element signature="e#200426#200427#0" expanded="false" />
-            <element signature="e#200461#200462#0" expanded="false" />
-            <element signature="e#215744#215745#0" expanded="false" />
-            <element signature="e#215796#215797#0" expanded="false" />
-            <element signature="e#217536#217537#0" expanded="false" />
-            <element signature="e#217573#217574#0" expanded="false" />
-            <element signature="e#222370#222371#0" expanded="false" />
-            <element signature="e#222435#222436#0" expanded="false" />
-            <element signature="e#228029#228030#0" expanded="false" />
-            <element signature="e#228058#228059#0" expanded="false" />
-            <element signature="e#241450#241451#0" expanded="false" />
-            <element signature="e#241506#241507#0" expanded="false" />
-            <element signature="e#247515#247516#0" expanded="false" />
-            <element signature="e#247552#247553#0" expanded="false" />
-            <element signature="e#247910#247911#0" expanded="false" />
-            <element signature="e#247973#247974#0" expanded="false" />
-            <element signature="e#248535#248536#0" expanded="false" />
-            <element signature="e#248616#248617#0" expanded="false" />
-            <element signature="e#248906#248907#0" expanded="false" />
-            <element signature="e#248955#248956#0" expanded="false" />
-            <element signature="e#249328#249334#0" expanded="false" />
-            <element signature="e#249439#249466#0" expanded="false" />
-            <element signature="e#253318#253319#0" expanded="false" />
-            <element signature="e#253365#253366#0" expanded="false" />
-            <element signature="e#255268#255269#0" expanded="false" />
-            <element signature="e#255336#255337#0" expanded="false" />
-            <element signature="e#256457#256458#0" expanded="false" />
-            <element signature="e#256527#256528#0" expanded="false" />
-            <element signature="e#257810#257811#0" expanded="false" />
-            <element signature="e#257838#257839#0" expanded="false" />
-            <element signature="e#262752#262753#0" expanded="false" />
-            <element signature="e#262779#262780#0" expanded="false" />
-            <element signature="e#262843#262844#0" expanded="false" />
-            <element signature="e#262870#262871#0" expanded="false" />
-            <element signature="e#262923#262924#0" expanded="false" />
-            <element signature="e#262984#262985#0" expanded="false" />
-            <element signature="e#263046#263047#0" expanded="false" />
-            <element signature="e#263073#263074#0" expanded="false" />
-            <element signature="e#263135#263136#0" expanded="false" />
-            <element signature="e#263162#263163#0" expanded="false" />
-            <element signature="e#263213#263214#0" expanded="false" />
-            <element signature="e#263272#263273#0" expanded="false" />
-            <element signature="e#263334#263335#0" expanded="false" />
-            <element signature="e#263361#263362#0" expanded="false" />
-            <element signature="e#263423#263424#0" expanded="false" />
-            <element signature="e#263450#263451#0" expanded="false" />
-            <element signature="e#263501#263502#0" expanded="false" />
-            <element signature="e#263560#263561#0" expanded="false" />
-            <element signature="e#266646#266647#0" expanded="false" />
-            <element signature="e#266674#266675#0" expanded="false" />
-            <element signature="e#267174#267175#0" expanded="false" />
-            <element signature="e#267220#267221#0" expanded="false" />
-            <element signature="e#267582#267583#0" expanded="false" />
-            <element signature="e#267656#267657#0" expanded="false" />
-            <element signature="e#267915#267916#0" expanded="false" />
-            <element signature="e#267957#267958#0" expanded="false" />
-            <element signature="e#274452#274453#0" expanded="false" />
-            <element signature="e#274486#274487#0" expanded="false" />
-            <element signature="e#275033#275048#0" expanded="false" />
-            <element signature="e#275088#275089#0" expanded="false" />
-            <element signature="e#275134#275135#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-22/android/view/WindowManagerGlobal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-22/android/view/WindowManagerImpl.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/dali_decoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <caret line="147" column="14" selection-start-line="147" selection-start-column="14" selection-end-line="147" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/file_writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/monitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.172413">
-          <caret line="438" column="13" selection-start-line="438" selection-start-column="13" selection-end-line="438" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2374#2382#0" expanded="true" />
-            <element signature="e#4506#4514#0" expanded="true" />
-            <element signature="e#17923#18387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/loxeras/dalimonitor/file_writer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.120567374">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.33208254">
+          <caret line="130" column="21" selection-start-line="130" selection-start-column="12" selection-end-line="130" selection-end-column="21" />
           <folding />
         </state>
       </provider>

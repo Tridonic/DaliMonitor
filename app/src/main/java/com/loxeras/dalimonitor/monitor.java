@@ -18,7 +18,6 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.NotificationCompat;
@@ -54,6 +53,7 @@ public class monitor extends Activity  {
     public static final int STATE_CONNECTING = 2;    //  initiating an outgoing connection
     public static final int STATE_CONNECTED = 3;     //  connected to a remote device
     public static final int STATE_DISCONNECTED = 4;  //  disconnected from a remote device
+    private static final int FILE_CODE = 0;
 
     private static ListView mainListView ;
     private static ArrayAdapter<String> listAdapter ;
@@ -123,7 +123,6 @@ public class monitor extends Activity  {
         BluetoothThread = connect.get_thread();
         //	BluetoothThread.connect(message);
         btSocket = BluetoothThread.get_connection();
-
 
 
         if(success == true){
@@ -230,10 +229,16 @@ public class monitor extends Activity  {
 
 
     public void LoadFile() {
-        File sdcard = Environment.getExternalStorageDirectory();
+
+
+      //  Intent filePickerDialogIntent = new Intent(monitor.this, FilePickerActivity.class);
+      //  filePickerDialogIntent.putExtra(FilePickerActivity.THEME_TYPE, ThemeType.DIALOG);
+     //   filePickerDialogIntent.putExtra(FilePickerActivity.REQUEST_CODE, FilePickerActivity.REQUEST_FILE);
+     //   startActivityForResult(filePickerDialogIntent, FilePickerActivity.REQUEST_FILE);
         //	Intent intent = new Intent(this, FileChooserActivity.class);
         //	intent.putExtra(FileChooserActivity.INPUT_REGEX_FILTER, ".*dmf");
         //   intent.putExtra(FileChooserActivity.INPUT_START_FOLDER, sdcard);
+
         //   this.startActivityForResult(intent, 0);
 
     }
@@ -273,8 +278,8 @@ public class monitor extends Activity  {
         //Clear the List view.
         igrp = 0;
         listAdapter.clear();		//Delete Content in List
-        mainListView.setAdapter( listAdapter );	//Reload Adapter
-        itemadder("Data Cleared!",true);
+        mainListView.setAdapter(listAdapter);	//Reload Adapter
+        itemadder("Data Cleared!", true);
     }
     public void SaveFile() {
         //Save the File in given folder
@@ -291,17 +296,17 @@ public class monitor extends Activity  {
             public void onClick(DialogInterface dialog, int whichButton) {
                 String value = input.getText().toString();
                 String content = "";
-                for(String s : message_list){			//Reads out the items from the List
-                    content += s + "\n";	   			//Create the content
+                for (String s : message_list) {            //Reads out the items from the List
+                    content += s + "\n";                //Create the content
                 }
-                file_writer.writeFile(content,value);	//Writes the File
-                itemadder("File saved as: "+value+".dmf",true);
+                file_writer.writeFile(content, value);    //Writes the File
+                itemadder("File saved as: " + value + ".dmf", true);
             }
         });
 
         alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
-                itemadder("Saving file aborded cause of user.",true);
+                itemadder("Saving file aborded cause of user.", true);
             }
         });
 
@@ -443,5 +448,9 @@ public class monitor extends Activity  {
         builder.setMessage("Was wollen sie tun?").setPositiveButton("neu Initialisieren", dialogClickListener)
                 .setNegativeButton("erweitern", dialogClickListener).setTitle("Adressierung").show();
     }
+
+
+
+
 
 }

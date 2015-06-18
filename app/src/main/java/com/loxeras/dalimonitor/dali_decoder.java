@@ -61,6 +61,11 @@ public class dali_decoder extends Thread {
             "GRP 06","GRP 07","GRP 08","GRP 09","GRP 10","GRP 11","GRP 12","GRP 13","GRP 14","GRP 15"
     };
 
+    private static final String[] DALI_TYPE = {
+        "Fluoreszent Lampe","Selbstversorger-Notbeleuchtung","Entladungs Lampe","Low Voltage Halogen Lampe","LED Modul",""
+
+    };
+
     public static interface Listener {
         void onConnected();
         void onReceived(byte[] buffer, int length);
@@ -78,12 +83,17 @@ public class dali_decoder extends Thread {
         int strlen = 	command.length();
         String answer = "";
         if(cmd[0] == 83 && cmd[strlen-1] == 69){
+            if(command.contains("addr[")){
+                String re = adressing(command);
+                return re;
+
+
+            }
             if(command.contains(" ") == false){
                 command = command.substring(0,command.length()-1);
                 command = command.replace('S', ' ');
                 command = command.trim();
                 answer = "Answer: " + command;
-
             }else{
                 String[] seperated = command.split(" ");		//Splitted befehl und wert auf
                 String com = seperated[1].substring(0,seperated[1].length()-1);	//Entfernt das "E"
@@ -101,7 +111,7 @@ public class dali_decoder extends Thread {
                     try{
                         answer = COMMANDS[icom];				//holt den befehl
                     }catch(Exception e){						//scatch
-                        System.out.println(e);					//print error
+                        System.out.println(e);					//print errory§
                         answer = "ERROR no such command: "+e;	//Put error in answer
                     }
                 }
@@ -119,6 +129,28 @@ public class dali_decoder extends Thread {
     }
     public static int getigrp(){
         return igrp;
+    }
+
+    public static String adressing(String Command){
+        String answere = "";
+        Command = Command.replace("addr[","");
+        Command = Command.replace("]","");
+        Command = Command.replace("dt[","");
+        Command = Command.replace("S","");
+        Command = Command.replace("E","");
+
+        String[] separated = Command.split("_");
+
+        String device = "";
+        if(Integer.parseInt(separated[1]) == 254){
+             device = "Multifunktions Sensor";
+
+        }else{
+            device = DALI_TYPE[Integer.parseInt(separated[1])];
+        }
+        answere = device + "@Adress " + separated[0];
+
+        return answere;
     }
 }
 
